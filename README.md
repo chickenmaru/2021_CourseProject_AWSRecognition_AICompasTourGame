@@ -1,7 +1,7 @@
 # 📘 OVERVIEW
 The story follows a senior alumnus returning to National Central University, revisiting familiar places filled with memories. Players assist him in recalling the past by exploring various campus locations and uncovering fragments of his memories along the way.
 
-## Main Storyline Locations (in order)
+## Storyline Locations
 
 - Jhih-Shi Hall
 
@@ -45,7 +45,7 @@ Example: Suppose we want the user to send a photo of Zhixi Hall. When the user u
 <img width="1145" height="552" alt="image" src="https://github.com/user-attachments/assets/70dbfd06-904f-405f-a134-9b0cf01b1b08" />
 
 ## Step 2 – AWS AI Model Parameter Input in Colab
-1. Open the AWS Learner Lab and enable the AWS services.
+1.Open the AWS Learner Lab and enable the AWS services.
 2.Upload the required image files to Amazon S3.
 3.After uploading, go to Amazon Rekognition to perform image recognition on the files stored in S3.
 4.Once the model setup is complete, you can start using it.
@@ -67,4 +67,13 @@ Example: Suppose we want the user to send a photo of Zhixi Hall. When the user u
 <img width="1149" height="560" alt="image" src="https://github.com/user-attachments/assets/42ad3e71-7115-4f7f-a7b6-a16878826c51" />
 <img width="1150" height="563" alt="image" src="https://github.com/user-attachments/assets/15309c91-421a-4b9d-97c8-7f6c8388a9a4" />
 <img width="1148" height="559" alt="image" src="https://github.com/user-attachments/assets/2211157d-4902-4f11-b5a2-ea5cd6cc66dc" />
+
+## Step 5 Establish Scenario
+1.Create an Excel file and edit the scenario.
+2.Use Line Bot Designer to generate the message reply JSON file.
+3.According to the scenario requirements, generate the corresponding quick reply button JSON file (using the Colab program provided by the instructor).
+4.Upload the completed files to the Colab execution environment.
+<img width="996" height="611" alt="image" src="https://github.com/user-attachments/assets/440be066-b573-4f1b-acbd-4e74b5ab72be" />
+<img width="1150" height="561" alt="image" src="https://github.com/user-attachments/assets/dbee80b7-8734-4d58-870a-f1eb6ea664eb" />
+<img width="1147" height="523" alt="image" src="https://github.com/user-attachments/assets/fbfc2338-0794-442f-97f5-cb3b76010c84" />
 
