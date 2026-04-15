@@ -295,7 +295,7 @@ def handle_image_message(event):
             fd.write(chunk)
 
     s3_client.upload_file(user_upload_image_file_name, client_bucket_name, f"{event.source.user_id}/images/{event.message.id}.jpg")
-    reply_text = show_custom_labels(model_arn,user_upload_image_file_name,90)
+    reply_text = show_custom_labels(model_arn,user_upload_image_file_name,70)
 
 
     if reply_text != '':
